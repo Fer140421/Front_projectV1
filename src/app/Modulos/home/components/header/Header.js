@@ -32,27 +32,27 @@ const Header = () => {
       style={{ zIndex: 1030, paddingTop: '20px', paddingBottom: '10px' }} // Ajusta el padding para mover el header abajo
     >
       <Container className="d-flex justify-content-between align-items-center position-relative">
-        {/* Línea ploma (gris) entre el logo y los botones */}
         <div
           style={{
             position: 'absolute',
             bottom: '0',
             left: '50%',
             width: '100%',
-            borderBottom: '2px solid #cccccc', // Color plomo (gris)
+            borderBottom: '2px solid #cccccc',
             transform: 'translateX(-50%)',
             zIndex: 1 
           }}
         ></div>
 
-        {/* Sección del logo centrado */}
+        
         <Navbar.Brand href="/" className="mx-auto" style={{ zIndex: 2 }}>
-          <img
-            src="/path/to/logo.png" // Asegúrate de poner la ruta correcta de tu logo
+          {/*<img
+            src="/path/to/logo.png"
             alt="CLOTHES Logo"
             className="d-inline-block align-top"
             style={{ height: '30px' }}
-          />
+          />*/}
+          <h1>CLOTHES</h1>
         </Navbar.Brand>
 
         {/* Links de navegación centrados */}
