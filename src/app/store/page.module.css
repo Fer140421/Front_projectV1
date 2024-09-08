@@ -1,0 +1,175 @@
+.container {
+    padding: 20px;
+    background-color: #ffffff;
+  }
+
+  .containerbotones {
+    margin-left: 60%;
+  }
+
+  .button {
+    background-color: #F4F6F8; /* Color de fondo */
+    border: none; /* Sin borde */
+    color: #1D4042; /* Color del texto */
+    padding: 15px 32px; /* Espaciado interno (padding) */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Mostrar en línea, pero con capacidad de aplicar padding */
+    font-size: 16px; /* Tamaño de la fuente */
+    margin: 5% 5%; /* Espaciado externo (margen) */
+ 
+    cursor: pointer; /* Cursor al pasar sobre el botón */
+    border-radius: 4px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
+  }
+  
+  .button:hover {
+    background-color: #d9d9d9; /* Color de fondo al pasar el mouse */
+  }
+  
+  .button:active {
+    background-color: #d9d9d9; /* Color de fondo al hacer clic */
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .tableContainer {
+    margin: 0px;
+    overflow-x: auto; /* Permite el desplazamiento horizontal en pantallas pequeñas */
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  .postContainer {
+    border: 1px solid #07786A; /* Borde alrededor del contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+    overflow: hidden; /* Oculta el contenido que se desborda */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    max-width: 70%; /* Ancho máximo del contenedor */
+    margin-left: 20%; /* Margen exterior */
+    margin-top: 10%; /* Margen exterior */
+    margin-bottom: 10%; /* Margen exterior */
+    padding: 16px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto al centro */
+    background-color: #fff; /* Color de fondo */
+  }
+  
+  .postImage {
+    width: 100%; /* Ancho completo del contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
+    border-bottom: 1px solid #ddd; /* Borde inferior para separar la imagen del texto */
+    margin-bottom: 16px; /* Espacio debajo de la imagen */
+    border-radius: 20px; /* Bordes ovalados */
+  }
+  
+  .postTitle {
+    font-size: 18px; /* Tamaño de fuente para el título */
+    font-weight: bold; /* Negrita para el título */
+    color: #333; /* Color del texto */
+    margin: 8px 0; /* Espacio arriba y abajo del título */
+  }
+  
+  .postDescription {
+    font-size: 14px; /* Tamaño de fuente para la descripción */
+    color: #666; /* Color del texto de la descripción */
+    margin: 8px 0; /* Espacio arriba y abajo de la descripción */
+  }
+  
+  .postButton {
+    background-color: white; /* Color de fondo del botón */
+    border: 2px solid #07786A; /* Color y grosor del borde del botón */
+    color: #07786A; /* Color del texto del botón */
+    padding: 12px 24px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Mostrar en línea con capacidad de padding */
+    font-size: 16px; /* Tamaño de la fuente */
+    margin-top: 8px; /* Espacio arriba del botón */
+    border-radius: 50px; /* Bordes ovalados */
+    cursor: pointer; /* Cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Transición suave para el color de fondo, texto y borde */
+  }
+  
+  .postButton:hover {
+    background-color: #07786A; /* Color de fondo al pasar el ratón sobre el botón */
+    color: white; /* Color del texto al pasar el ratón sobre el botón */
+    border-color: #07786A; /* Color del borde al pasar el ratón sobre el botón */
+  }
+
+
+
+
+  .containerlayout {
+    display: flex; /* Hacer que los hijos se alineen en fila */
+    width: 100%; /* Asegurar que el contenedor ocupe el 100% del ancho disponible */
+    height: 100vh; /* Opcional: ocupar la altura completa de la pantalla */
+  }
+  
+  .div1layout {
+    width: 20%; /* Ocupa el 30% del ancho del contenedor */
+    background-color: rgb(255, 255, 255); /* Color de fondo para diferenciación */
+    padding: 20px; /* Espaciado interno */
+    color: #45595B;
+    position: fixed; /* Mantiene el div1layout fijo al hacer scroll */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #ffffff; /* Ajusta según tu necesidad */
+    overflow-y: auto; /* Permite scroll dentro de div1layout si su contenido es grande */
+    margin-top: 5%;
+  }
+  
+  .div2layout {
+    width: 80%; /* Ocupa el 70% del ancho del contenedor */
+    background-color: rgb(255, 255, 255); /* Color de fondo para diferenciación */
+    padding: 0px; /* Espaciado interno */
+    margin-left: 300px; /* Debe coincidir con el ancho de div1layout */
+    padding: 20px;
+   
+    width: calc(100% - 300px); /* Ajusta el ancho para llenar el espacio restante */
+    background-color: #fff; /* Ajusta según tu necesidad */
+    height: 100vh; /* Asegura que la altura tome toda la ventana */
+    box-sizing: border-box;
+    margin-top: 10%;
+  }
+
+.div3layout{
+  margin-top: 40%;
+  margin-left: 40%;
+}
+
+.div3layout h2{
+  margin: 5%;
+}
+.div3layout h3{
+  margin: 5%;
+}
+.div3layout input{
+  margin-left: 15%;
+}
+
+.div3layout li{
+  list-style-type: none; /* Elimina los puntos de viñeta */
+}
+
+
+
+
+
+

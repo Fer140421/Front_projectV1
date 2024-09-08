@@ -60,9 +60,9 @@ const Header = () => {
           <Nav.Link href="/" className="text-muted">Inicio</Nav.Link>
           {/* Menú desplegable para Tienda */}
           <NavDropdown title="Tienda" id="tienda-dropdown" className="text-muted">
-            <NavDropdown.Item href="/tienda/hombres">Hombres</NavDropdown.Item>
-            <NavDropdown.Item href="/tienda/mujeres">Mujeres</NavDropdown.Item>
-            <NavDropdown.Item href="/tienda/ninos">Niños</NavDropdown.Item>
+            <NavDropdown.Item href="/store">Hombres</NavDropdown.Item>
+            <NavDropdown.Item href="/store">Mujeres</NavDropdown.Item>
+            <NavDropdown.Item href="/store">Niños</NavDropdown.Item>
          
           </NavDropdown>
           <Nav.Link href="/sobre-nosotros" className="text-muted">Sobre Nosotros</Nav.Link>
