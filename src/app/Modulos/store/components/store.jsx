@@ -1,9 +1,9 @@
 import { Inter } from 'next/font/google';
-import styles from './page.module.css';
+import styles from './store.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export default function Layout({ children }) {
+export default function Store({ children }) {
     return (
       <html >
         <body >
@@ -28,10 +28,6 @@ export default function Layout({ children }) {
                   <input type="checkbox" /> vestidos
               </li>
               </ul>
-          
-           
-        
-
               <h3>Hombre</h3>
               <ul>
               <li>
@@ -43,11 +39,7 @@ export default function Layout({ children }) {
               <li>
                   <input type="checkbox" /> camisas
               </li>
-
               </ul>
-
-        
-            
             </div>
             
           </div>

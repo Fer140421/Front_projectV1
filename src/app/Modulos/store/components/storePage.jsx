@@ -1,12 +1,12 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
-import styles from './page.module.css';
+import styles from './sotre.css';
 
 
 
 
-export default function Page() {
+export default function StorePage() {
 
   const [productsObj, setProductsObj] = useState({});
 

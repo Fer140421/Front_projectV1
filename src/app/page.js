@@ -1,10 +1,9 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import Header from "./Modulos/home/components/header/Header.js";
-import Home from "./Modulos/home/Home";
-
+import Header from "./Modulos/header/components/Header";
+import Home from "./Modulos/home/components/Home";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Footer from "./Modulos/home/components/Footer/Footer";
+import Footer from "./Modulos/footer/components/Footer";
 
 export default function HomePage() {
   return (

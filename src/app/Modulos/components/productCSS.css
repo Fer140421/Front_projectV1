@@ -1,0 +1,70 @@
+/* product.module.css */
+.productGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .productCard {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .productCard img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .productGrid .tag {
+    display: block;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .productGrid h3 {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .productGrid p {
+    font-size: 16px;
+  }
+  
+  .postButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .pagination button.active,
+  .pagination button:hover {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+  }
+  
