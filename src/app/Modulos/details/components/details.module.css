@@ -1,0 +1,188 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.gallery__image-container {
+  width: 400px;
+  height: 500px;
+}
+
+.gallery__image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.gallery__thumbnails {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.gallery__thumbnail {
+  width: 80px;
+  height: 100px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  transition: border-color 0.3s;
+}
+
+.gallery__thumbnail:hover {
+  border: 2px solid #00c853;
+}
+
+.details {
+  max-width: 400px;
+}
+
+.details__title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.details__price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.color-options {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.color-option {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.color-option.red { background-color: red; }
+.color-option.black { background-color: black; }
+.color-option.purple { background-color: purple; }
+color-option.gray { background-color: gray; }
+
+.details__sizes {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.details__size-btn {
+  padding: 8px 16px;
+  border: 1px solid #333;
+  cursor: pointer;
+  background-color: #f9f9f9;
+}
+
+.details__size-btn:hover {
+  background-color: #e1e1e1;
+}
+
+.details__product-quantity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.input img {
+  cursor: pointer;
+}
+
+.input__number {
+  width: 40px;
+  text-align: center;
+}
+
+.details__button,
+.whatsapp-button {
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.details__button {
+  background-color: #00c853;
+  color: white;
+}
+
+.details__button:hover {
+  background-color: #00a843;
+}
+
+.whatsapp-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #25d366;
+  color: white;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebc57;
+}
+
+.tabs {
+  margin-top: 30px;
+}
+
+.tab {
+  display: inline-block;
+  padding: 10px 20px;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+
+.tab.active {
+  border-bottom: 2px solid #333;
+  font-weight: bold;
+}
+
+.tab-content {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .content {
+      flex-direction: column;
+      padding: 20px;
+  }
+
+  .gallery__thumbnails {
+      flex-direction: row;
+      overflow-x: scroll;
+  }
+
+  .gallery__image-container {
+      width: 100%;
+      height: auto;
+  }
+}
